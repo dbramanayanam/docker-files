@@ -1,2 +1,2 @@
 FROM centos
-RUN dnf instal httpd
+RUN dnf install httpd
