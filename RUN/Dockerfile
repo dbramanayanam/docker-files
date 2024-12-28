@@ -1,2 +1,2 @@
-FROM centos:8
+FROM alpine
 RUN yum install httpd -y
