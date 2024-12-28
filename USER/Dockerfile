@@ -1,5 +1,5 @@
 FROM almalinux 
 RUN useradd dinesh
 USER dinesh
-RUN mkdir test
-RUN ls -ld test
+RUN touch test
+RUN ls -l test
