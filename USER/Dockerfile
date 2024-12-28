@@ -1,5 +1,5 @@
 FROM almalinux 
 RUN useradd dinesh
 USER dinesh
-RUN touch test
-RUN ls -l test
+RUN touch /home/dinesh/test
+CMD [ "sleep", "100" ]
